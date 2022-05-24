@@ -53,18 +53,13 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Water.cs" />
-    <Compile Include="Assets\Scripts\flyEnemy.cs" />
-    <Compile Include="Assets\Scripts\Сamera.cs" />
-    <Compile Include="Assets\Scripts\Enemy.cs" />
-    <Compile Include="Assets\Scripts\Door.cs" />
-    <Compile Include="Assets\Scripts\groundPatrol.cs" />
-    <Compile Include="Assets\Scripts\DeathEmeny.cs" />
-    <Compile Include="Assets\Scripts\Bee.cs" />
-    <Compile Include="Assets\Scripts\DeadEmeny.cs" />
-    <Compile Include="Assets\Scripts\ListFlyEnemy.cs" />
-    <Compile Include="Assets\Scripts\fireball.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\Main.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\groundPatrol.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\Enemies.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\Player.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\Сamera.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\Ground_patrol.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\Death_enemi.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
