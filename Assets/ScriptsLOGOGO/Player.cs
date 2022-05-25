@@ -165,8 +165,19 @@ public class Player : MonoBehaviour
         CanTP = true;
     }
 
-    void Lose()
+    public void Lose()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        main.Lose();
+        /*SceneManager.LoadScene(SceneManager.GetActiveScene().name);*/
+    }
+
+    public int Book_info()
+    {
+        return Rec_book;
+    }
+
+    public int Hearts_info()
+    {
+        return curHp;
     }
 }

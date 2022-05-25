@@ -53,6 +53,7 @@
     <UnityVersion>2020.3.27f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\ScriptsLOGOGO\BG.cs" />
     <Compile Include="Assets\ScriptsLOGOGO\Main.cs" />
     <Compile Include="Assets\ScriptsLOGOGO\groundPatrol.cs" />
     <Compile Include="Assets\ScriptsLOGOGO\Enemies.cs" />
@@ -60,6 +61,22 @@
     <Compile Include="Assets\ScriptsLOGOGO\Сamera.cs" />
     <Compile Include="Assets\ScriptsLOGOGO\Ground_patrol.cs" />
     <Compile Include="Assets\ScriptsLOGOGO\Death_enemi.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\Menu.cs" />
+    <Compile Include="Assets\ScriptsLOGOGO\Finish.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\SprieLOGOG\UI_elements\kenney_fontpackage\License.txt" />
+    <None Include="Assets\SprieLOGOG\UI_elements\gameicons\Spritesheet\sheet_black1x.xml" />
+    <None Include="Assets\SprieLOGOG\UI_elements\gameicons\Spritesheet\sheet_black2x.xml" />
+    <None Include="Assets\SprieLOGOG\UI_elements\gameicons\license.txt" />
+    <None Include="Assets\SprieLOGOG\UI_elements\uipack_fixed\Spritesheet\redSheet.xml" />
+    <None Include="Assets\SprieLOGOG\UI_elements\uipack_fixed\Spritesheet\blueSheet.xml" />
+    <None Include="Assets\SprieLOGOG\UI_elements\uipack_fixed\Spritesheet\yellowSheet.xml" />
+    <None Include="Assets\SprieLOGOG\UI_elements\gameicons\Spritesheet\sheet_white1x.xml" />
+    <None Include="Assets\SprieLOGOG\UI_elements\uipack_fixed\Spritesheet\greySheet.xml" />
+    <None Include="Assets\SprieLOGOG\UI_elements\uipack_fixed\license.txt" />
+    <None Include="Assets\SprieLOGOG\UI_elements\gameicons\Spritesheet\sheet_white2x.xml" />
+    <None Include="Assets\SprieLOGOG\UI_elements\uipack_fixed\Spritesheet\greenSheet.xml" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

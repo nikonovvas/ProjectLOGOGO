@@ -145,7 +145,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6701458001885351051}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 054426d7e258ab04abaf5d973531ce0a, type: 3}
   m_Name: 
@@ -154,6 +154,7 @@ MonoBehaviour:
   speed: 5
   jumpH: 14
   groundChek: {fileID: 6701457999914710416}
+  main: {fileID: 0}
   key: 0
   inWoter: 0
 --- !u!95 &6701458001885351049
